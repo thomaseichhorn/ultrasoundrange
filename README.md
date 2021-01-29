@@ -4,9 +4,9 @@ Python script for ultrasound rangefinding with MB 100X EZ sensors
 
 ## Hardware connections
 
-Sensor pin 1 <-> GND 
-Sensor pin 2 <-> +5V 
-Sensor pin 3 <-> Pi pin 10 (BCM 15 RXD) 
+Sensor pin 1 <-> GND  
+Sensor pin 2 <-> +5V  
+Sensor pin 3 <-> Pi pin 10 (BCM 15 RXD)  
 
 
 ## Usage
