@@ -26,3 +26,8 @@ Then run
 ```
 sudo python range.py
 ```
+
+### Raspberry Pi 4
+If you are running a Pi4, change "/dev/ttyAMA0" to "/dev/ttyAMA1" in `mbultrasound.py` and `range.py` and add the additional line `dtoverlay=uart2` to `/boot/config.txt`.
+Connect sensor pin 3 to Pi pin 28 (BCM 1).
+
